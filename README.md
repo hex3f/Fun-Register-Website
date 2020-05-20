@@ -4,7 +4,7 @@ You can see the "hex3f.sql" in the source file. This is database back-up. But yo
 Now you just need import the sql file. 
 
 * Step 2 "Modify configuration file" <br/>
-This file is in "/hex3f/api/config.php". You need to fill in all the config to run the website. <br/>
+This file is in "/hex3f/api/config.php". You need to fill in all the config to run the website. <br/><br/>
 $baidu_ak -> Baidu map ak number <br/>
 $accessKeyId -> Alibaba Cloud sms AccessKeyId <br/>
 $accessKeySecret -> Alibaba Cloud sms AccessKeySecret <br/>
@@ -19,5 +19,5 @@ TemplateCodeCAESARPASSWORD: <br/>
 TemplateCodeMD5: <br/>
 注册码：${code}，请将前五位进行MD5加密，且合并在一起，向首页的code变量进行GET传参即可开始注册！ <br/>
 
-Now you just need to enjoy! <br/>
+<div align=center padding:5px>NOW YOU JUST NEED TO ENJOY! <br/> <br/>
 <div align=center>![Index_website](index.png)
