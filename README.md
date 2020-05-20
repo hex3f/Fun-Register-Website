@@ -4,14 +4,14 @@ You can see the "hex3f.sql" in the source file. This is database back-up. But yo
 Now you just need import the sql file. 
 
 * Step 2 "Modify configuration file" <br/>
-This file is in "/hex3f/api/config.php". You need to fill in all the config to run the website. <br/><br/>
-$baidu_ak -> Baidu map ak number <br/>
-$accessKeyId -> Alibaba Cloud sms AccessKeyId <br/>
-$accessKeySecret -> Alibaba Cloud sms AccessKeySecret <br/>
-$SignName -> Alibaba Cloud sms sign name <br/>
-$TemplateCode -> Alibaba Cloud sms template code <br/>
-$TemplateCodeMD5 -> Alibaba Cloud sms to send md5 code <br/>
-$TemplateCodeCAESARPASSWORD ->  Alibaba Cloud sms to send caesar password code <br/>
+1. This file is in "/hex3f/api/config.php". You need to fill in all the config to run the website. <br/><br/>
+2. $baidu_ak -> Baidu map ak number <br/>
+3. $accessKeyId -> Alibaba Cloud sms AccessKeyId <br/>
+4. $accessKeySecret -> Alibaba Cloud sms AccessKeySecret <br/>
+5. $SignName -> Alibaba Cloud sms sign name <br/>
+6. $TemplateCode -> Alibaba Cloud sms template code <br/>
+7. $TemplateCodeMD5 -> Alibaba Cloud sms to send md5 code <br/>
+8. $TemplateCodeCAESARPASSWORD ->  Alibaba Cloud sms to send caesar password code <br/>
 
 * This is my sms template <br/>
 TemplateCodeCAESARPASSWORD: <br/>
