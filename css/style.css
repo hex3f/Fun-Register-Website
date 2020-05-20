@@ -1,0 +1,361 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #22292C;
+	color:white;
+	font-size:20px;
+	overflow: hidden;
+}
+.textEffect{
+	width: 500px;
+	height:125px;
+	position: absolute;
+	text-align: center;
+	top: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color:rgba(0,0,0,0.5);
+}
+.textEffect #titleLogo{
+	margin-top:10px;
+}
+
+.beian{
+	width: 300px;
+	height: 35px;
+	position: absolute;
+	text-align: center;
+	top: 90%;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color:rgba(0,0,0,0.5);
+}
+.beian .ConfirmOpenBeian{
+	line-height: 35px;
+}
+
+
+.console{
+	display: none;
+	width: 500px;
+	height: 70px;
+	position: absolute;
+	text-align: center;
+	line-height: 70px;
+	top:70%;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: rgba(0,0,0,0.5);
+}
+
+.console #console_text{ 
+	font-family: px;
+	background-color: rgba(0,0,0,0.5);
+	width: 300px;  
+	height: 30px;
+	font-size: 20px;
+	color: #90EE90;
+	border-style: none;
+	padding:5px;
+}
+
+
+
+
+#game{
+	display:none;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	background-color: rgba(0,0,0,0.5);
+	transform: translateX(-50%);
+}
+
+#game-container {
+	position: relative;
+}
+
+.window-wrapper-outer {
+	border: 1px solid;
+	border-color: rgba(241,239,226,0.4) rgba(113,111,100,0.4) rgba(113,111,100,0.4) rgba(241,239,226,0.4);
+}
+
+.window-wrapper-inner {
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.4) rgba(172,168,153,0.4) rgba(172,168,153,0.4) rgba(255,255,255,0.4);
+}
+
+.window-container {
+	position: relative;
+	background-color: rgba(236,233,216,0.4);
+	padding: 1px;
+}
+
+#custom-level-dialog {
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 15px;
+	z-index: 3;
+	width: 200px;
+}
+
+#high-score-dialog label {
+	float: left;
+	width: 47px;
+	padding-top: 3px;
+}
+
+.form-textbox {
+	width: 35px;
+	height: 14px;
+	border: 2px solid;
+	border-color: #aca899 rgba(255,255,255,0.4) rgba(255,255,255,0.4) #aca899;
+}
+
+#minesweeper-custom-buttons {
+	float: right;
+}
+
+
+#minesweeper-ok-btn {
+	margin-bottom: 18px;
+}
+
+#high-score-dialog {
+	display: none;
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	z-index: 4;
+	width: 200px;
+}
+
+#high-score-dialog-content {
+	overflow: hidden;
+	font: 12px arial;
+	padding: 10px;
+}
+
+#high-score-dialog h2 {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#high-score-dialog #high-score-name-label {
+	width: 40px;
+}
+
+#high-score-name-textbox {
+	width: 120px;
+}
+
+#submit-high-score-container {
+	text-align: center;
+}
+
+#submit-high-score {
+	width: auto;
+}
+
+#minesweeper-board-wrapper {
+	position: relative;
+	background-color: rgba(189,189,189,0.4);
+	padding: 7px;
+	border-left: 3px solid rgba(255,255,255,0.4);
+	border-top: 3px solid rgba(255,255,255,0.4);
+}
+
+#minesweeper-title-bar {
+	background-position: 0 -84px;
+}
+
+#minesweeper-header-container {
+	padding: 3px 5px;
+	border: 2px solid;
+	border-color: rgba(125,125,125,0.4) rgba(255,255,255,0.4) rgba(255,255,255,0.4) rgba(125,125,125,0.4);
+}
+
+#minesweeper-header-wrapper {
+	border-bottom: 7px solid rgba(189,189,189,0.4);
+}
+
+#minesweeper-header {
+	position: relative;
+	overflow: hidden;
+}
+
+#minefield {
+	overflow: hidden;
+	border: 3px solid;
+	border-color: rgba(125,125,125,0.4) rgba(255,255,255,0.4) rgba(255,255,255,0.4) rgba(125,125,125,0.4);
+}
+
+#minefield div {
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url("../images/minesweeper.png") no-repeat;
+}
+
+#minefield .covered {
+	background-position: 0 -39px;
+}
+
+#minefield .mines0 {
+	background-position: 0 -23px;
+}
+
+#minefield .mines1 {
+	background-position: -16px -23px;
+}
+
+#minefield .mines2 {
+	background-position: -32px -23px;
+}
+
+#minefield .mines3 {
+	background-position: -48px -23px;
+}
+
+#minefield .mines4 {
+	background-position: -64px -23px;
+}
+
+#minefield .mines5 {
+	background-position: -80px -23px;
+}
+
+#minefield .mines6 {
+	background-position: -96px -23px;
+}
+
+#minefield .mines7 {
+	background-position: -112px -23px;
+}
+
+#minefield .mines8 {
+	background-position: -128px -23px;
+}
+
+#minefield .mine-hit {
+	background-position: -32px -39px;
+}
+
+#minefield .mine-misflagged {
+	background-position: -48px -39px;
+}
+
+#minefield .mine {
+	background-position: -64px -39px;
+}
+
+#minefield .flag {
+	background-position: -16px -39px;
+}
+
+#minefield .question {
+	background-position: -80px -39px;
+}
+
+#mine-count,
+#timer {
+	overflow: hidden;
+	position: absolute;
+	top: 1px;
+	z-index: 1;
+	border: 1px solid;
+	border-color: rgba(128,128,128,0.4) rgba(255,255,255,0.4) rgba(255,255,255,0.4) rgba(128,128,128,0.4);
+}
+
+#mine-count {
+	left: 0;
+}
+
+#timer {
+	right: 0;
+}
+
+.numbers div {
+	float: left;
+	width: 13px;
+	height: 23px;
+	background: url("../images/minesweeper.png") no-repeat;
+}
+
+#minesweeper-reset-button {
+	background: url("../images/minesweeper.png") no-repeat;
+	height: 26px;
+	width: 26px;
+	margin: 0 auto;
+}
+
+#minesweeper-reset-button.face-smile {
+	background-position: 0 -55px;
+}
+
+#minesweeper-reset-button.face-pressed {
+	background-position: -26px -55px;
+}
+
+#minesweeper-reset-button.face-surprised {
+	background-position: -52px -55px;
+}
+
+#minesweeper-reset-button.face-sad {
+	background-position: -78px -55px;
+}
+
+#minesweeper-reset-button.face-sunglasses {
+	background-position: -104px -55px;
+}
+
+.numbers .t0 {
+	background-position: 0 0;
+}
+
+.numbers .t1 {
+	background-position: -13px 0;
+}
+
+.numbers .t2 {
+	background-position: -26px 0;
+}
+
+.numbers .t3 {
+	background-position: -39px 0;
+}
+
+.numbers .t4 {
+	background-position: -52px 0;
+}
+
+.numbers .t5 {
+	background-position: -65px 0;
+}
+
+.numbers .t6 {
+	background-position: -78px 0;
+}
+
+.numbers .t7 {
+	background-position: -91px 0;
+}
+
+.numbers .t8 {
+	background-position: -104px 0;
+}
+
+.numbers .t9 {
+	background-position: -117px 0;
+}
+
+.numbers .tm {
+	background-position: -130px 0;
+}

@@ -1,0 +1,11 @@
+@font-face {
+	font-family:px;
+	src: url('../fonts/px.ttf');
+}
+@font-face {
+	font-family:pxE;
+	src: url('../fonts/px.otf');
+}
+* {
+	font-family: px;
+}
