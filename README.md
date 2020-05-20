@@ -20,4 +20,4 @@ TemplateCodeMD5: <br/>
 注册码：${code}，请将前五位进行MD5加密，且合并在一起，向首页的code变量进行GET传参即可开始注册！ <br/>
 
 Now you just need to enjoy! <br/>
-![Index_website](index.png)
+<div align=center>![Index_website](index.png)
