@@ -19,5 +19,5 @@ TemplateCodeCAESARPASSWORD: <br/>
 TemplateCodeMD5: <br/>
 注册码：${code}，请将前五位进行MD5加密，且合并在一起，向首页的code变量进行GET传参即可开始注册！ <br/>
 
-NOW YOU JUST NEED TO ENJOY!
-<div align=center>![Index_website](index.png)
+<div align=center padding:5px>NOW YOU JUST NEED TO ENJOY! <br/>
+<div align=center>![Index_website](/index.png)
